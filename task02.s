@@ -33,7 +33,7 @@ fout: .asciz "out.txt"
 .text
 .global main
 main:
-/*
+
 pushl stdin
 pushl $read
 pushl $fin
@@ -50,7 +50,7 @@ call freopen
 popl %ebx
 popl %ebx
 popl %ebx
-*/
+
 
 
 pushl $m
